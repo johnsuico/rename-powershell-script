@@ -1,0 +1,1 @@
+dir -Filter "*.std*"| Rename-Item -NewName {$_.Name -replace '(.*?)_(.*)','$1-$2'}
