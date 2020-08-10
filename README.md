@@ -1,2 +1,13 @@
-# rename-powershell-script
-A powershell script for windows that renames files. The script will find the first underscore(_) in the file name and replace it with a hypen(-). This script will only apply to specific file types, determined by the filter method in the script.
+# Rename Powershell Script
+A powershell script that will take the first occurance of a certain character and replace it with another.
+
+## What the script does
+* Renames files in current directory
+* Only renames files of a certain file type
+  ** Can be changed by changing the script
+  ** Remove
+  ``
+  -Filter "*.std*"
+  ``
+  In order to change all file types
+  ** .std can be changed into any other file extension
